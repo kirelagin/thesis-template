@@ -1,0 +1,28 @@
+\begin{titlepage}
+\newpage
+\centering
+
+Санкт-Петербургский академический университет —\\
+научно-образовательный центр нанотехнологий РАН\\
+(Академический университет)\\
+Кафедра математических и информационных технологий
+
+\vfill
+
+\makeatletter
+\textbf{\large
+\@title
+}
+\makeatother
+
+\vspace{2em}
+
+\makeatletter
+\@author
+\makeatother
+
+\vfill
+
+Санкт-Петербург\\
+\the\year
+\end{titlepage}

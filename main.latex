@@ -1,0 +1,21 @@
+\title{Шаблон для дипломных работ}
+\author{Иванов И.\,И.\\
+Научный руководитель: Петров П.\,П., ЗАО «Пятерочка»}
+% Название университета надо поменять в title.latex
+
+
+\input{preamble.latex}
+
+\begin{document}
+
+\input{title.latex}
+\addtocounter{page}{1}
+\null\clearpage
+
+\tableofcontents
+
+\input{text.latex}
+
+\bibliography{bib}
+
+\end{document}
