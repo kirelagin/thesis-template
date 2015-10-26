@@ -20,7 +20,7 @@ Nice links
 ===========
 
 * [The Waf Book](https://waf.io/book/)
-* Always feel free to refer to the [real-life example](https://github.com/kirelagin/ninja-thesis/tree/master)
+* Always feel free to refer to the [real-life example](https://github.com/kirelagin/masters/tree/master) (or [a little bit obsolete one](https://github.com/kirelagin/ninja-thesis/tree/master)).
 
 
 
