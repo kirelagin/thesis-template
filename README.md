@@ -1,11 +1,11 @@
 HOWTO
 ======
 
-*   Install XeTeX, Pandoc and other stuff.
+*   Install XeTeX and Pandoc.
 *   `./waf configure`
 *   while `./waf` is not succeeding
 
-    * install missing stuff
+    * install missing stuff (see [Dependencies](#dependencies))
 
 *   while not happy with your text
 
@@ -13,6 +13,13 @@ HOWTO
     * _(sometimes)_ Edit `.latex` files
     * _(sometimes)_ Update `sources` in `wscript`
     * `./waf`
+
+
+
+Dependencies
+=============
+
+There is a list of required TeX Live packages in [`shell.nix`](shell.nix) but in case you could not care less you are always free to just install Tex Live Full.
 
 
 

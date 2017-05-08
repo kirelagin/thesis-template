@@ -99,6 +99,7 @@
     }
 }
 
+\def\tightlist{}
 \usepackage{enumitem}
 \makeatletter
 \AddEnumerateCounter{\asbuk}{\@asbuk}{м)}
