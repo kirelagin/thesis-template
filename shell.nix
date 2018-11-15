@@ -25,6 +25,7 @@ pkgs.stdenv.mkDerivation {
         multirow
         pgf       # pgfplots
         pgfplots
+        polyglossia
         setspace
         textpos
         titlesec

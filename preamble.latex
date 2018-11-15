@@ -162,6 +162,7 @@
 
 \usepackage{xcolor}
 \usepackage{listings}
+\newcommand{\passthrough}[1]{\lstset{mathescape=false}#1\lstset{mathescape=true}}
 \definecolor{greencomments}{rgb}{0,0.5,0}
 \definecolor{bluekw}{rgb}{0,0,0.5}
 \definecolor{redstrings}{rgb}{0.5,0,0}
