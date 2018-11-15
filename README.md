@@ -1,3 +1,14 @@
+Why
+====
+
+* This template automatically follows GOST to the letter
+  (well, almost, there are _minor_ deviations where GOST is particularly ugly).
+* `waf` magically reruns XeTeX as many times as needed to properly
+  generate the table of contents (yes, XeTeX, just as LaTeX, is stupid
+  and has to be run multiple times).
+
+
+
 HOWTO
 ======
 
