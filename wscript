@@ -37,8 +37,9 @@ def build(bld):
     ])
 
     bld(features='pandoc-merge', source=sources + ' bib.bib', target='text.latex',
+            enabled_exts='smart raw_tex',
             disabled_exts='fancy_lists',
-            flags='-R -S --latex-engine=xelatex --listings --chapters',
+            flags='--pdf-engine=xelatex --listings --top-level-division=chapter',
             linkflags='--toc --listings --chapters -R')
 
     # Outputs main.pdf
